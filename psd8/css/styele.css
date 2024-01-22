@@ -1,0 +1,123 @@
+/*common start*/
+body{
+    margin: 0;
+    font-family:serif ;
+    font-size:16px ;
+    font-weight: 400;
+    color: #626262;
+}
+/*common end*/
+header{
+   padding: 30px 0;
+ /* border: 1px solid green;*/
+}
+.container{
+    overflow: hidden;
+    margin:0 auto ;
+    width:90% ;
+   /* border: 1px solid green;*/
+}
+.logo{
+    margin-top: 8px;
+    overflow: hidden;
+    width: 13%;
+  /*  border: 1px solid red ;*/
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+     overflow: hidden;
+    width:65% ;
+ /*   border: 1px solid red  ;*/
+    float: right;
+}
+.menu ul{
+    overflow: hidden;
+    float: right;
+}
+.menu ul li{
+    list-style:none ;
+    float: left;
+}
+.menu ul li a{
+    display:inline-block ;
+    padding: 0 45px;
+    color: #626262;
+    text-decoration: none;
+    border-bottom: 1px transparent;
+    transition: .33s linear ;
+}
+.menu ul li:last-child a{
+   padding-right: 0;
+}
+
+.menu ul li a :hover{
+    border-bottom: 1px solid #626262;
+}
+ /* banner start */
+  .banner{}
+  .b{}
+  .b-img{}
+  .b-img img{
+    width: 100%;
+  }
+
+
+ /* banner end */
+ /*getaway start */
+ .getaway{
+    padding: 90px 0 ;
+ }
+ .container2{
+    margin:0 auto ;
+    width:80% ;
+   /* border: 1px solid red;*/
+ }
+ .g-content{}
+ .c-light{
+    margin:0 ;
+    font-family:sans-serif ;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform:uppercase ;
+    color: #E0DDD8;
+ }
+ .c-title{
+     margin:20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+ }
+ .c-text{
+    line-height: 24px;
+ }
+.c-light-m{
+   margin-top: 40px;
+   color: #E0DDD8;
+}
+
+ /*getaway end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
